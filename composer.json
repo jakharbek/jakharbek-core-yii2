@@ -1,0 +1,24 @@
+{
+    "name": "jakharbek/jakharbek-core",
+    "description": "Основной функционал",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","jakharbek","core"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jakharbek",
+            "email": "javhar_work@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "extra": {
+        "bootstrap": "jakharbek\\core\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "jakharbek\\core\\": "src"
+        }
+    }
+}
