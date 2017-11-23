@@ -1,6 +1,6 @@
-Основной функционал
+Basic Functionality
 ===================
-Основной функционал
+Basic Functionality
 
 Installation
 ------------
@@ -25,7 +25,9 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, you mast configurate extension;
+To do this, you need to open the src/bootstrap.php
+And specify the mail component and your email
 
-```php
-<?= \jakharbek\core\AutoloadExample::widget(); ?>```
+    public static $mailer_component = "mailer";
+    public static $email_from = "";
