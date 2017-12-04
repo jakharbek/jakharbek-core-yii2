@@ -22,7 +22,7 @@ class Bootstrap implements BootstrapInterface{
     const EXT_ALIAS = '@vendor/jakharbek/jakharbek-core/src';
 
     public static $mailer_component = "mailer";
-    public static $email_from = "";
+    public static $email_from = "j.abdulatipov@light.uz";
 
     public function bootstrap($app)
     {

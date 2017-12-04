@@ -24,8 +24,7 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
-You must migrate the database from the / migration folder
-    */token/migrations   
+
 Once the extension is installed, you mast configurate extension;
 To do this, you need to open the src/bootstrap.php
 And specify the mail component and your email

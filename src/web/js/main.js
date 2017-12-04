@@ -1,7 +1,7 @@
 /**
  * Created by Jakharbek on 21.11.2017.
  */
-$(document).ready(function(){
+var query_handler = function(){
     $('[data-query]').each(function(){
         $(this).click(function(e){
 
@@ -39,6 +39,9 @@ $(document).ready(function(){
             }
         });
     });
+}
+$(document).ready(function(){
+    query_handler();
 });
  document.onlinecomponent = function(query_data = 'online_manager=ok',query_success = null,query_method = 'POST',query_interval = 1000){
     $(document).ready(function(){
